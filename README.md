@@ -43,12 +43,12 @@ Set URL that will be redirected to when user navigates to the host domain with t
 ##put /url/:id/tablet/
 Set URL that will be redirected to when user navigates to the host domain with the corresponding set's code on a tablet. The body of the request must match the format:
 ```
-{ url: 'desktop_url' }
+{ url: 'tablet_url' }
 ```
 ##put /url/:id/mobile/
 Set URL that will be redirected to when user navigates to the host domain with the corresponding set's code on a mobile device. The body of the request must match the format:
 ```
-{ url: 'desktop_url' }
+{ url: 'mobile_url' }
 ```
 ##get /url/:id/desktop/
 Retrieve the desktop URL for the submitted URL set.
